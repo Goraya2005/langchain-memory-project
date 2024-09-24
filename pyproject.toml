@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "project-memory"
+version = "0.1.0"
+description = "Learn about managing memory by langchain"
+authors = ["goraya2005 <goraya2005@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-community = "^0.3.0"
+python-dotenv = "^1.0.1"
+langchain-google-genai = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
